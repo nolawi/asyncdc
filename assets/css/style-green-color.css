@@ -2012,10 +2012,16 @@ h6 {
   letter-spacing: 0.02em;
 }
 .extra-heading {
-  margin: 0 0 8px;
-  font-size: 132px;
-  text-transform: uppercase;
-  letter-spacing: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  background-image: url("../img/async_logo-bg-wh.svg");
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+.extra-heading strong {
+  font-size: 0;
+  color: transparent;
 }
 h1,
 h2,
@@ -6335,7 +6341,7 @@ button[type="submit"] .loading {
 .navigation-header {
   zoom: 1;
   display: inline-block;
-  padding: 29px 0 0;
+  padding: 20px 0 0;
 }
 .navigation-header:before,
 .navigation-header:after {
@@ -6353,6 +6359,7 @@ button[type="submit"] .loading {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 10px;
 }
 .navigation-header .buy-btn {
   margin: 9px 0 0;
